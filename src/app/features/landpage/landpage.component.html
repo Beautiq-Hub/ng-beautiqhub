@@ -1,0 +1,265 @@
+<app-header />
+<section class="hero-section d-flex align-items-center py-4">
+  <div class="container text-center text-md-start">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="fw-bold">
+          Il gestionale intelligente per saloni e centri estetici
+        </h1>
+        <p class="lead mt-3">
+          Gestisci appuntamenti, clienti e vendite in un’unica piattaforma
+          facile e veloce.
+        </p>
+        <p class="text-body-secondary mt-2">
+          Iscriviti ora per partecipare alla
+          <span class="text-borgogna">beta esclusiva</span>, ti avviseremo non
+          appena potrai iniziare a provarla!
+        </p>
+        <form class="mt-4">
+          <div class="mb-3">
+            <input
+              #betaInput
+              type="email"
+              class="form-control"
+              placeholder="Inserisci la tua email"
+              required
+            />
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-borgogna">
+              Tienimi aggiornato
+            </button>
+          </div>
+        </form>
+        <p class="text-body-secondary mt-2">
+          🎁 I primi 25 iscritti avranno accesso gratuito per 2 mesi.
+        </p>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0 text-center">
+        <img
+          src="images/dashboard.png"
+          class="img-fluid rounded shadow"
+          alt="Platform mockup"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5" id="services">
+  <h3 class="text-center mb-4 text-borgogna">Perché scegliere Beautiq Hub?</h3>
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-calendar-event display-4 mb-3 text-borgogna"></i>
+      <h5>Gestione appuntamenti</h5>
+      <p>
+        Agenda drag&drop, prenotazioni online 24/7, promemoria automatici e
+        gestione no-show.
+      </p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-person-vcard display-4 mb-3 text-borgogna"></i>
+      <h5>Anagrafica clienti e storico servizi</h5>
+      <p>
+        Profilo unico con contatti, preferenze, allergie e storico trattamenti.
+      </p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-archive display-4 mb-3 text-borgogna"></i>
+      <h5>Inventario prodotti</h5>
+      <p>
+        Magazzino in tempo reale, alert di riordino, gestione lotti/scadenze.
+      </p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-bell display-4 mb-3 text-borgogna"></i>
+      <h5>Promozioni e reminder</h5>
+      <p>
+        Campagne segmentate, coupon e recall; <br />
+        Messaggi automatici per compleanni e appuntamenti.
+      </p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-people display-4 mb-3 text-borgogna"></i>
+      <h5>Gestione dipendenti</h5>
+      <p>
+        Gestione completa del personale, con anagrafica, ruoli, turni e
+        presenze.
+      </p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-graph-up display-4 mb-3 text-borgogna"></i>
+      <h5>Report avanzati</h5>
+      <p>
+        Dashboard vendite e KPI, analisi per servizio/staff, esportazione dati
+        per contabilità.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5" id="contacts">
+  <h3 class="text-center mb-4 text-borgogna">Contatti</h3>
+  <p>
+    Scrivici per qualsiasi informazione o richiesta a
+    <a
+      class="text-borgogna text-decoration-none"
+      href="mailto:info@beautiq-hub.com?subject=Richiesta%20informazioni&body=Buongiorno%2C%0Avorrei%20ricevere%20maggiori%20informazioni%20su%20Beautiq%20Hub."
+      >info&#64;beautiq-hub.com</a
+    >
+  </p>
+</section>
+
+<section class="container my-5" id="faq">
+  <h3 class="text-center mb-4 text-borgogna">Domande frequenti</h3>
+  <div ngbAccordion>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>
+          È adatto a saloni di qualsiasi dimensione?
+        </button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, Beautiq Hub è progettato per saloni grandi e piccoli, con
+            funzionalità scalabili.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>
+          Posso gestire più sedi contemporaneamente?
+        </button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Certamente, la piattaforma supporta la gestione multi-sede con
+            report dedicati.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>
+          È facile da usare anche senza competenze tecniche?
+        </button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, Beautiq Hub è stato progettato per essere intuitivo e
+            accessibile a tutti.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>
+          Serve installare qualcosa per utilizzare Beautiq Hub?
+        </button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            No, Beautiq Hub è in cloud: lo usi subito da PC, tablet o smartphone
+            senza installazioni.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>È disponibile in più lingue?</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Al momento in italiano, ma stiamo lavorando per aggiungere altre
+            lingue.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>Posso importare i miei dati attuali?</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, ti aiutiamo a importare anagrafica clienti, storico e servizi.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>Gestisce anche magazzino e prodotti?</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, puoi monitorare scorte, riordini e vendite in tempo reale.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>
+          Invia promemoria automatici ai clienti?
+        </button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, via SMS, email e WhatsApp per ridurre i no-show.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>I miei dati sono al sicuro?</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, usiamo server sicuri e backup automatici giornalieri.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>I dati restano miei?</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Certo, puoi esportarli in qualsiasi momento.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton>Offrite assistenza?</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            Sì, al momento solo via email. Nel prossimo futuro anche tramite
+            chat e telefono.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
